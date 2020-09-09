@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+<h1>Contact Me</h1>
+<form action="mailto:mskhayat@uqu.edu.sa" method="post" enctype="text/plain">
+    <fieldset>
+      <legend>Fill this form then press 'Send Request':</legend>
+      <br />
+      <lable>Your Name:</lable>
+      <input type="text" name="Name" size="30" placeholder="Name"/><br /><br />
+      <lable>Your Email:</lable>
+      <input type="email" name="Email" size="30" placeholder="Email@gmail.com"/><br /><br />
+      <lable>Your Phone:</lable>
+      <input type="tel" name="Telephone" size="30" placeholder="+966 555555555"/><br /><br />
+      <lable>Your Gender:</lable>
+      <input type="radio" name="Gender" value="Male" checked> Male
+      <input type="radio" name="Gender" value="Female"> Female<br><br />
+      <lable>Contact Reason:</lable>
+      <input list="reason" name="Contact Reason" size="30">
+      <datalist id="reason">
+        <option value="Consultation">
+        <option value="Job offer">
+        <option value="Research Cooperation">
+        <option value="Others">
+      </datalist><br /><br />
+      <lable>The Details:</lable><br />
+      <textarea name="Details" rows="5" cols="100" placeholder="Write details here.."></textarea><br /><br />
+      <input type="submit" value="Send Request" onclick="Thank You" /><br />
+    </fieldset>
+    </form>
+
+  </body>
+  <footer>
+    <p>©2020 Mariah Khayat</p>
+  </footer>
+</html>
